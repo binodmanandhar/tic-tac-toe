@@ -22,7 +22,7 @@ body {
     url("bg-pattern-dark.png");
   background-repeat: repeat;
   background-size: 100% 100%, 30% 30%, 100% 100%;
-  min-height: 110rem;
+  min-height: 70rem;
 }
 
 header {
@@ -365,8 +365,13 @@ ol {
   .player-name {
     width: 100%;
   }
+  .player input,
   .player-input {
     width: 100%;
+  }
+  .player {
+    padding: 0;
+    border: none;
   }
 }
 
@@ -381,5 +386,8 @@ ol {
   }
   .player-input {
     width: 100%;
+  }
+  #game-container {
+    padding: 1rem;
   }
 }
