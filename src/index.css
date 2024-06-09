@@ -18,11 +18,7 @@ html {
 }
 
 body {
-  background: radial-gradient(
-      circle at top,
-      rgba(241, 210, 70, 0.98),
-      rgba(250, 176, 103, 0.87)
-    ),
+  background: radial-gradient(circle at top, rgba(241, 210, 70, 0.98), rgba(250, 176, 103, 0.87)),
     url("bg-pattern-dark.png");
   background-repeat: repeat;
   background-size: 100% 100%, 30% 30%, 100% 100%;
@@ -357,5 +353,33 @@ ol {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  #game-board button {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+  .player-name {
+    width: 100%;
+  }
+  .player-input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 340px) {
+  #game-board button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+  }
+  .player-name {
+    width: 100%;
+  }
+  .player-input {
+    width: 100%;
   }
 }

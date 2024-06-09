@@ -1,7 +1,6 @@
 import React from "react";
 
-export default function Log({ turns, players }) {
-  console.log(players);
+export default function Log({ turns }) {
   return (
     <ol id="log">
       {turns.map((turn) => (

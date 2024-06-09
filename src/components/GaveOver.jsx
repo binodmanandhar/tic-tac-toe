@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function GaveOver({ winner, onRestart }) {
   return (
     <div id="game-over">
