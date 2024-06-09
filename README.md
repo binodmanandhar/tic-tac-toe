@@ -14,6 +14,7 @@ npm run dev
 
 ### to build the react project for deployment
 
-```npm run build
+```
+npm run build
 
 ```
