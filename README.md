@@ -2,6 +2,6 @@
 
 [Download react](https://vitejs.dev/guide/)
 
-```npm create vite@latest ./
-
+```
+npm create vite@latest ./
 ```
